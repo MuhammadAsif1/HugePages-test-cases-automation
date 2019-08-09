@@ -2,16 +2,16 @@
 
 ################## ------- Varibales ----------###################
 ###-- 3 compute nodes ---##
-compute_node1_ip='192.168.120.21'
-compute_node2_ip='192.168.120.41'
-compute_node3_ip='192.168.120.42'
+compute_node1_ip='nova0'
+compute_node2_ip='nova1'
+compute_node3_ip='nova2'
 ###-- 3 controller nodes ---##
-controller_node1_ip='192.168.120.22'
-controller_node2_ip='192.168.120.27'
-controller_node3_ip='192.168.120.38'
+controller_node1_ip='cntrl0'
+controller_node2_ip='cntrl1'
+controller_node3_ip='cntrl2'
 
 hugepagesize=1000000 ## value in kB, which is equal to 1 GB
-flavor='m1.hpg'
+flavor='hpg_flavor1'
 network='hugpages_network1'
 subnet='hugpages_subnet1'
 router='hugpages_router1'
