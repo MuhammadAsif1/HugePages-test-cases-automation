@@ -141,4 +141,4 @@ instance_creation_using_hugepage_flavor()
 ############################### ----------- Main ---------------- #######################
 #validate_deployment_with_hugepage_size_set_to_1gb
 #network_setup
-#instance_creation_using_hugepage_flavor
+instance_creation_using_hugepage_flavor
